@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textGradient {
+  background: -webkit-linear-gradient(#0f766e, #2dd4bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tealShadow {
+    box-shadow: 3px 3px 1px 1px #99f6e4;
+}
+
+.tealShadow:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 1px 1px #99f6e4;
+}
